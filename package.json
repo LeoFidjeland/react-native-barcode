@@ -2,6 +2,7 @@
   "name": "react-native-barcode",
   "version": "0.1.0",
   "description": "A barcode generator for react-native",
+  "license": "MIT",
   "main": "index.js",
   "author": {
     "name": "Leo Fidjeland",
@@ -11,9 +12,6 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:leofidjeland/react-native-barcode.git"
-  },
-  "devDependencies": {
-    "jest-cli": "0.2.1"
   },
   "dependencies": {
     "react-native": "^0.8.0"
