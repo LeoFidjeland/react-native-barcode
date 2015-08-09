@@ -4,6 +4,7 @@ Generate barcodes using iOS Core Image filters.
 
 Currently supports:
  - Aztec
+ - QR
 
 ### Add it to your project
 
@@ -26,6 +27,8 @@ Currently supports:
 ![Example code result](https://raw.githubusercontent.com/leofidjeland/react-native-barcode/master/example.png)
 
 ```javascript
+var AztecCode = require('react-native-barcode').AztecCode;
+
 class AztecCodeExample extends React.Component{
   render() {
     return (
@@ -41,6 +44,8 @@ var styles = StyleSheet.create({
   },
 });
 ```
+
+Use <QRCode content="..." /> for a QR code.
 
 ### Additional props
 
