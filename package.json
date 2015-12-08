@@ -13,7 +13,5 @@
     "type": "git",
     "url": "git@github.com:leofidjeland/react-native-barcode.git"
   },
-  "dependencies": {
-    "react-native": "^0.8.0"
-  }
+  "dependencies": {}
 }
