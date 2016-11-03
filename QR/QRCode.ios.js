@@ -5,8 +5,10 @@
 
 'use strict';
 
-var React = require('react-native');
-var { requireNativeComponent } = React;
+import React, { PropTypes } from 'react';
+import {
+  requireNativeComponent,
+} from 'react-native';
 
 class QRCode extends React.Component {
   render() {
